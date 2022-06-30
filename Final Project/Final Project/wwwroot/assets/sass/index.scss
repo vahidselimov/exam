@@ -1,0 +1,406 @@
+*{
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  overflow-x: hidden;
+}
+header{
+  position: relative;
+ #image{
+   background-image: url(../image/the-town-bg-01.jpg);
+background-repeat: no-repeat;
+width: 200em;
+height: 50em;
+background-attachment: fixed;
+
+
+ }
+  nav{
+
+    .container{
+
+      .row{
+
+        .navbar{
+          position: absolute;
+        
+          .thetown{
+            h1{
+              a{
+                text-decoration: none;
+                color:#fff;
+                font-size: 25.2px;
+              }
+            }
+          }
+          
+          .thetown:hover{
+            h1{
+              a:hover{
+                text-decoration: none;
+                color: blue;
+                font-size: 25.2px;
+              }
+            }
+          }
+          .nav{
+
+            ul{
+              display: flex;
+             justify-content: center;
+             align-items: center;
+              li{
+                margin-top: 10px;
+                padding: 5px;
+                list-style: none;
+                text-align: center;
+                a{
+                  color: #fff;
+                  margin: 20px;
+                  font-size: 22.5px;
+                  text-decoration: none;
+
+
+                }
+                a:hover{
+                 color: blue;
+                  margin: 20px;
+                  font-size: 22.5px;
+                  text-decoration: none;
+
+
+                }
+              }
+            }
+          }
+        }
+        .center{
+          position: absolute;
+          text-align: center;
+  top: 40%;
+left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+          .title{
+           
+            h1{
+              color: #fff
+            }
+          }
+p{
+  color: #fff;
+}
+        }
+        .btn{
+          position: absolute;
+          text-align: center;
+  top: 60%;
+  left: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+          color: rgb(83, 75, 72);
+          padding: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+      border: none;
+      width: 100px;
+      font-size: 30px
+        }
+        .btn:hover{
+          transition: 0.5S;
+          position: absolute;
+          text-align: center;
+  top: 60%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+       color: #fff;
+          padding: 40px;
+        border-radius: 50%;
+      background-color: blue;
+      border: none;
+      width: 100px;
+      font-size: 30px;
+        }
+      }
+    }
+  }
+
+
+}
+main{
+  #first{
+ padding: 50px;
+   .title{
+.intro{
+  color: rgb(52, 150, 216);
+  font-size: 46.8px;
+  margin-left: 10px;
+}
+.text{
+  color: rgb(143, 143, 143);
+
+
+  padding: 10px;
+  font-size: 21.6px;
+}
+.rigth{
+  color: rgb(143, 143, 143);
+  padding: 10px;
+  font-size: 21.6px;
+}
+.btn{
+  margin-top: 5px;
+  width: 200px;
+  background-color:rgb(52, 150, 216); 
+  border-radius: 45%;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  a{
+    text-decoration: none;
+    color: #fff
+  }
+}
+.btn:hover{
+  margin-top: 5px;
+  width: 200px;
+  background-color:rgb(52, 150, 216); 
+  transition: 0.2s;
+  opacity: 50%;
+  border-radius: 45%;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  a:hover{
+    text-decoration: none;
+    color: #fff
+  }
+}
+ 
+ 
+   }
+
+  }
+  #icons{
+    padding: 70px;
+    .icon{
+      .card{
+ 
+        border:  none;
+        i{
+          text-align: center;
+          font-size: 70px;
+          color: rgb(52, 150, 216);
+
+        }
+        .title{
+          font-size: 25px;
+          color: rgb(52, 150, 216);
+          padding: 30px;
+          text-align: center;
+        }
+        .text{
+          font-size: 18px;
+          color: rgb(143, 143, 143);
+        }
+      }
+    }
+  }
+ #ours{
+   .our{
+     h1{
+       text-align: center;
+       color: rgb(52, 150, 216);
+       font-size: 46.8px;
+
+     }
+     p{
+       text-align: center;
+       color: rgb(143, 143, 143);
+       font-size: 16.2px;
+     }
+   }
+   .owl-carousel{
+     margin-top: 30px;
+  .owl-nav{
+    button{
+      display: none;
+    }
+  }
+ 
+     .item{
+      margin-top: 50px;
+      text-align: center;
+       
+img{
+
+  width: 220px;
+  height: 220px;
+}
+     }
+   }
+ }
+}
+footer{
+  position: relative;
+  #image{
+    background-image: url(../image/the-town-bg-02.jpg);
+    background-repeat: no-repeat;
+    width: 200em;
+    height: 50em;
+    background-attachment: fixed;
+    
+  }
+ .con{
+  top: 20%;
+   position: absolute;
+  
+  
+   .contact{
+     h1{
+       font-size: 46.8px;
+       color: #fff;
+       border-bottom:2px solid white;
+
+     }
+     
+   }
+   .title{
+     font-size: 18px;
+     padding: 30px;
+     color: #fff;
+     width: 650px;
+  
+   }
+.icon{
+  display: flex;
+  
+  .content{
+
+    display: flex;
+    i{
+      color: #fff;
+      font-size: 40px;
+    }
+    p{
+      margin:0  40px 40px;
+      color: #fff;
+      font-size: 18px;
+    }
+    
+    
+   }
+}
+.icon:hover{
+  display: flex;
+  
+  .content:hover{
+
+    display: flex;
+    i:hover{
+      color: #fff;
+      font-size: 40px;
+    }
+    p:hover{
+      margin:0  40px 40px;
+     color: blue;
+      font-size: 18px;
+    }
+    
+    
+   }
+}
+
+
+ }
+.icon2{
+  padding: 40px;
+  display: flex;
+  .content{
+
+    display: flex;
+    i{
+      color: #fff;
+      font-size: 40px;
+    }
+    p{
+      margin:0  40px 40px;
+      color: #fff;
+      font-size: 18px;
+    }
+    form{
+      input{
+      padding: 10px;
+     
+      background-color: hsla(0, 0%, 1%, 0);
+      width: 200px;
+      }
+      
+    }
+    a{
+     margin-left: 10px;
+      text-decoration: none;
+      background-color: #fff;
+    color: black;
+        border-radius: 30%;
+       padding: 20px;
+        text-align: center;
+        width: 100px;
+      }
+   }
+}
+.icon2:hover{
+  padding: 40px;
+  display: flex;
+  .content{
+
+    display: flex;
+    i{
+    color: blue;
+      font-size: 40px;
+    }
+    p{
+      margin:0  40px 40px;
+      color: #fff;
+      font-size: 18px;
+    }
+    form{
+      input{
+      padding: 10px;
+     
+      background-color: hsla(0, 0%, 1%, 0);
+      width: 200px;
+      }
+      
+    }
+    a{
+     margin-left: 10px;
+      text-decoration: none;
+      background-color: #fff;
+    color: black;
+        border-radius: 30%;
+       padding: 20px;
+        text-align: center;
+        width: 100px;
+      }
+   }
+}
+.copy{
+  position: absolute;
+ top: 90%
+ ;
+ left: 45%;
+ 
+}
+}
+

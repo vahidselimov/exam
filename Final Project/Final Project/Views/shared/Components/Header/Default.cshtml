@@ -1,0 +1,43 @@
+﻿@model HomeVM
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Default</title>
+</head>
+<body>
+    <header>
+        <section id="image"></section>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="navbar">
+                        <div class="thetown col-lg-5">
+                            <h1><a href="">@Model.Settings.Name</a></h1>
+                        </div>
+                        <div class="nav col-lg-7">
+                            @foreach (Navbar nav in Model.Navbars)
+                            {
+                                <ul>
+                                    <li><a href="">@nav.Name</a></li>
+                                
+                                </ul>
+
+                            }
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="title">
+                            <h1>@Model.Settings.Title</h1>
+                        </div>
+                        <p>@Model.Settings.p1</p>
+                        <p>@Model.Settings.p2</p>
+
+                    </div>
+                    <div class="btn"><i class="@Model.Settings.IconUrl"></i></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>

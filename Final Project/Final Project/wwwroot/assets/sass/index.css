@@ -1,0 +1,423 @@
+* {
+  top: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: relative;
+}
+
+header #image {
+  background-image: url(../image/the-town-bg-01.jpg);
+  background-repeat: no-repeat;
+  width: 200em;
+  height: 50em;
+  background-attachment: fixed;
+}
+
+header nav .container .row .navbar {
+  position: absolute;
+}
+
+header nav .container .row .navbar .thetown h1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25.2px;
+}
+
+header nav .container .row .navbar .thetown:hover h1 a:hover {
+  text-decoration: none;
+  color: blue;
+  font-size: 25.2px;
+}
+
+header nav .container .row .navbar .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .container .row .navbar .nav ul li {
+  margin-top: 10px;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+header nav .container .row .navbar .nav ul li a {
+  color: #fff;
+  margin: 20px;
+  font-size: 22.5px;
+  text-decoration: none;
+}
+
+header nav .container .row .navbar .nav ul li a:hover {
+  color: blue;
+  margin: 20px;
+  font-size: 22.5px;
+  text-decoration: none;
+}
+
+header nav .container .row .center {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+header nav .container .row .center .title h1 {
+  color: #fff;
+}
+
+header nav .container .row .center p {
+  color: #fff;
+}
+
+header nav .container .row .btn {
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  left: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #534b48;
+  padding: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  width: 100px;
+  font-size: 30px;
+}
+
+header nav .container .row .btn:hover {
+  -webkit-transition: 0.5S;
+  transition: 0.5S;
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  border: none;
+  width: 100px;
+  font-size: 30px;
+}
+
+main #first {
+  padding: 50px;
+}
+
+main #first .title .intro {
+  color: #3496d8;
+  font-size: 46.8px;
+  margin-left: 10px;
+}
+
+main #first .title .text {
+  color: #8f8f8f;
+  padding: 10px;
+  font-size: 21.6px;
+}
+
+main #first .title .rigth {
+  color: #8f8f8f;
+  padding: 10px;
+  font-size: 21.6px;
+}
+
+main #first .title .btn {
+  margin-top: 5px;
+  width: 200px;
+  background-color: #3496d8;
+  border-radius: 45%;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+main #first .title .btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main #first .title .btn:hover {
+  margin-top: 5px;
+  width: 200px;
+  background-color: #3496d8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 50%;
+  border-radius: 45%;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+main #first .title .btn:hover a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+main #icons {
+  padding: 70px;
+}
+
+main #icons .icon .card {
+  border: none;
+}
+
+main #icons .icon .card i {
+  text-align: center;
+  font-size: 70px;
+  color: #3496d8;
+}
+
+main #icons .icon .card .title {
+  font-size: 25px;
+  color: #3496d8;
+  padding: 30px;
+  text-align: center;
+}
+
+main #icons .icon .card .text {
+  font-size: 18px;
+  color: #8f8f8f;
+}
+
+main #ours .our h1 {
+  text-align: center;
+  color: #3496d8;
+  font-size: 46.8px;
+}
+
+main #ours .our p {
+  text-align: center;
+  color: #8f8f8f;
+  font-size: 16.2px;
+}
+
+main #ours .owl-carousel {
+  margin-top: 30px;
+}
+
+main #ours .owl-carousel .owl-nav button {
+  display: none;
+}
+
+main #ours .owl-carousel .item {
+  margin-top: 50px;
+  text-align: center;
+}
+
+main #ours .owl-carousel .item img {
+  width: 220px;
+  height: 220px;
+}
+
+footer {
+  position: relative;
+}
+
+footer #image {
+  background-image: url(../image/the-town-bg-02.jpg);
+  background-repeat: no-repeat;
+  width: 200em;
+  height: 50em;
+  background-attachment: fixed;
+}
+
+footer .con {
+  top: 20%;
+  position: absolute;
+}
+
+footer .con .contact h1 {
+  font-size: 46.8px;
+  color: #fff;
+  border-bottom: 2px solid white;
+}
+
+footer .con .title {
+  font-size: 18px;
+  padding: 30px;
+  color: #fff;
+  width: 650px;
+}
+
+footer .con .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .con .icon .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .con .icon .content i {
+  color: #fff;
+  font-size: 40px;
+}
+
+footer .con .icon .content p {
+  margin: 0  40px 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer .con .icon:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .con .icon:hover .content:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .con .icon:hover .content:hover i:hover {
+  color: #fff;
+  font-size: 40px;
+}
+
+footer .con .icon:hover .content:hover p:hover {
+  margin: 0  40px 40px;
+  color: blue;
+  font-size: 18px;
+}
+
+footer .icon2 {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .icon2 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .icon2 .content i {
+  color: #fff;
+  font-size: 40px;
+}
+
+footer .icon2 .content p {
+  margin: 0  40px 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer .icon2 .content form input {
+  padding: 10px;
+  background-color: rgba(3, 3, 3, 0);
+  width: 200px;
+}
+
+footer .icon2 .content a {
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  border-radius: 30%;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+footer .icon2:hover {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .icon2:hover .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .icon2:hover .content i {
+  color: blue;
+  font-size: 40px;
+}
+
+footer .icon2:hover .content p {
+  margin: 0  40px 40px;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer .icon2:hover .content form input {
+  padding: 10px;
+  background-color: rgba(3, 3, 3, 0);
+  width: 200px;
+}
+
+footer .icon2:hover .content a {
+  margin-left: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: black;
+  border-radius: 30%;
+  padding: 20px;
+  text-align: center;
+  width: 100px;
+}
+
+footer .copy {
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+/*# sourceMappingURL=index.css.map */
